@@ -1,0 +1,84 @@
+*{
+    background-color: #fccfdf;
+}
+i{
+    color: rgb(91, 90, 91);
+    border-bottom: 5px darkorchid;
+}
+input:checked{
+    accent-color: pink;
+    color: rgb(237, 100, 228);
+    height: 20px;
+    width: 20px;
+}
+input:enabled{
+    background-color: gray;
+}
+input:disabled{
+    background-color: palevioletred;
+}
+p:empty{
+    width: 150px;
+    height: 20px;
+    background-color: gray;
+}
+.form1{
+  border: 2px dashed #675858; 
+  padding: 20px; 
+  width: 300px; 
+  margin: 0 auto;
+}
+.form2{
+    border: 5px solid #c565bf; 
+    padding: 100px; 
+    width: 800px; 
+    margin: 0 auto;
+  }
+div p:first-of-type{
+    color: #c26daa;
+}
+div p:first-child{
+    background-color: #1f1b1e;
+}
+p{
+    color: #c26daa;
+}
+span:last-child{
+    color: #d900c0;
+}
+input:valid{
+    color: #000000;
+    border: 5px solid rgb(232, 217, 217);
+    width: 50px;
+}
+input:in-range{
+    border:5px solid #c26daa;
+    padding: 10px;
+}
+input:out-of-range{
+    border: 2px solid red;
+    background-color: aquamarine;
+}
+.inputtype{
+    length: 100px;
+    padding: 50px;
+    border: 5px dotted rgb(43, 174, 210);
+}
+div#d p:last-of-type{
+    background-color: rgb(15, 126, 177);
+}
+p:last-child{
+    color: rgb(18, 136, 205);
+}
+.main{
+    height: 300px;
+    width: 1600px;
+    border: 7px dashed gray;
+    padding-left: 50px;
+}
+.sub{
+    height: 150px;
+    width: 1000px;
+    border: 5px dashed rgb(51, 198, 247);
+    padding-left: 50px;
+}
